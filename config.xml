@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "au.edu.mq.riverstyles-glossary"
+        versionCode = "10"
+        version     = "1.1.0">
+ 
+    <name>RiverStyles Glossary</name>
+ 
+    <description>
+        Glossary of terms used in River Styles Framework 
+    </description>
+ 
+    <author href="http://mq.edu.au/informatics" email="ask.development@mq.edu.au">
+        Marlon Santos
+    </author>
+     
+    <gap:platform name="ios" />
+    <gap:platform name="android" />
+    <gap:platform name="winphone" />
+
+    <feature name="http://api.phonegap.com/1.0/camera"/>
+    <feature name="http://api.phonegap.com/1.0/contacts"/>
+    <feature name="http://api.phonegap.com/1.0/file"/>
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+    <feature name="http://api.phonegap.com/1.0/media"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/notification"/>
+ 
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="UIWebView-Bounce" value="false" />
+</widget>
